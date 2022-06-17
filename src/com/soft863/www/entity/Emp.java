@@ -1,18 +1,11 @@
 package com.soft863.www.entity;
 
-public class Persion_test {
-    private int age;
+import java.io.Serializable;
+
+public class Emp implements Serializable {
     private String id;
     private String name;
-    private boolean sex;
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
+    private String info;
 
     public String getId() {
         return id;
@@ -30,11 +23,11 @@ public class Persion_test {
         this.name = name;
     }
 
-    public boolean isSex() {
-        return sex;
+    public String getInfo() {
+        return info;
     }
 
-    public void setSex(boolean sex) {
-        this.sex = sex;
+    public void setInfo(String info) {
+        this.info = info;
     }
 }

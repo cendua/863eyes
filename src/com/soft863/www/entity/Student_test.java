@@ -1,18 +1,9 @@
 package com.soft863.www.entity;
 
-public class Persion_test {
-    private int age;
+public class Student_test {
     private String id;
     private String name;
-    private boolean sex;
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
+    private Integer age;
 
     public String getId() {
         return id;
@@ -30,11 +21,11 @@ public class Persion_test {
         this.name = name;
     }
 
-    public boolean isSex() {
-        return sex;
+    public Integer getAge() {
+        return age;
     }
 
-    public void setSex(boolean sex) {
-        this.sex = sex;
+    public void setAge(Integer age) {
+        this.age = age;
     }
 }

@@ -1,4 +1,4 @@
-package com.soft863.www.test;
+package com.soft863.www.test.demo0615;
 
 import org.junit.Test;
 
